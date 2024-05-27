@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+  <style>
+    /* Reset default styles */
+    body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    nav {
+        background-color: #444;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #ff7f50;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    img {
+        width: 300px; /* Set a fixed width */
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    ul {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: #fff;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Welcome to the Image Links Page!</h1>
+</header>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#menu">Menu</a>
+</nav>
+<main>
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our technology section!</p>
+    <img src="Engaging_with_technology-1536x1024.webp" alt="Technology">
+  </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="meadow_trees_grass_1120026_1280x720.jpg" alt="Nature">
+      <img src="trees_silhouettes_hill_1120884_1280x720.jpg" alt="Nature">
+      <img src="forest_path_summer_125991_720x1280.jpg" alt="Nature">
+    </div>
+  </section>
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><img src="cocoa_marshmallow_plaid_118517_1280x720.jpg" alt="Food 1"> Cocoa</li>
+      <li><img src="macarons_cookies_colorful_196902_1280x720.jpg" alt="Food 2"> Macarons</li>
+      <li><img src="burger_meat_chicken_93265_1280x720.jpg" alt="Food 3"> Burger</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
